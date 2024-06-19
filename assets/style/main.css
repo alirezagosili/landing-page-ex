@@ -270,3 +270,30 @@ p.sm {
     justify-content: center;
     align-items: center;
 }
+/* info section */
+.info{
+    padding-top: 68px;
+    padding-bottom: 141px;
+    padding-left: 260px;
+    padding-right: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+.info img {
+    display: block;
+    width: 40%;
+
+}
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-text-box{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
