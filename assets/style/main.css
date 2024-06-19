@@ -237,3 +237,36 @@ p.sm {
     justify-content: space-between;
     align-items: center;
 }
+/* services */
+.services {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    border-bottom: 2px solid var(--firefly);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services h2 + p {
+    margin-top: 16px;
+}
+.services-categories{
+    display: flex;
+    gap: 100px;
+    margin-top: 67px;
+}
+.services-category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+.services-img-box{
+    width: 160px;
+    height: 160px;
+    border-radius: 32px;
+    border: 2px solid var(--firefly);
+    box-shadow: 6px 6px 0 0 var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
