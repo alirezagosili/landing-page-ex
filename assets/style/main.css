@@ -4,7 +4,7 @@
     padding: 0;
 }
 .container {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 :root {
@@ -33,6 +33,7 @@ body {
     font-family: "Prompt", sans-serif;
     color: var(--firefly);
 }
+/* Text style */
 h1 {
     font-size: 60px;
     font-weight: 600;
@@ -177,7 +178,7 @@ p.sm {
     height: calc(100vh - 97px);
 }
 .hero-left {
-    width: 52%;
+    width: 50%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -212,10 +213,27 @@ p.sm {
     margin-top: 42px;
 }
 .hero-right {
-    width: 48%;
+    width: 50%;
     padding-right: 48px;
     background-color: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+.hero-right img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* references */
+.references {
+    background-color: var(--firefly);
+    padding-left: 86px;
+}
+.references ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 150px 40px 0;
+    justify-content: space-between;
+    align-items: center;
 }
