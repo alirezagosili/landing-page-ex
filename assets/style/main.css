@@ -3,25 +3,27 @@
     margin: 0;
     padding: 0;
 }
-:root{
-    --white:#ffffff;
-    --black:#000000;
-    --yellow:#F3DF6B;
-    --green:#5fe0be;
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #f3df6b;
+    --green: #5fe0be;
     --yellow-green: #11bd0d;
     --sushi: #97b442;
     --firefly: #0b2131;
-    --clay:#1b1f28;
-    --red:#d62308;
-    --blue:#2700EF;
-    --blue-line:#1657FF;
+    --clay: #1b1f28;
+    --red: #d62308;
+    --blue: #2700ef;
+    --blue-line: #1657ff;
     --dodger-blue: #4884ff;
     --oxford-blue: #394b58;
-    --perfume: #CDC4FB;
-    --geraldine: #FB998A;
-    --pink-line:#EE27FF;
-    --red-line:#ff4e65;
-    --orange-line:#ff9b00;
+    --perfume: #cdc4fb;
+    --geraldine: #fb998a;
+    --pink-line: #ee27ff;
+    --red-line: #ff4e65;
+    --orange-line: #ff9b00;
+    /* Fonts */
+    --red-hat-text: "Red Hat Text", sans-serif;
 }
 body {
     font-family: "Prompt", sans-serif;
