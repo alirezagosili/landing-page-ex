@@ -3,6 +3,26 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --yellow:#F3DF6B;
+    --green:#5fe0be;
+    --yellow-green: #11bd0d;
+    --sushi: #97b442;
+    --firefly: #0b2131;
+    --clay:#1b1f28;
+    --red:#d62308;
+    --blue:#2700EF;
+    --blue-line:#1657FF;
+    --dodger-blue: #4884ff;
+    --oxford-blue: #394b58;
+    --perfume: #CDC4FB;
+    --geraldine: #FB998A;
+    --pink-line:#EE27FF;
+    --red-line:#ff4e65;
+    --orange-line:#ff9b00;
+}
 body {
     font-family: "Prompt", sans-serif;
 }
@@ -29,4 +49,14 @@ h5 {
 h6 {
     font-size: 20px;
     font-weight: 700;
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+p.lg {
+    font-size: 24px;
+}
+p.sm {
+    font-size: 16px;
 }
