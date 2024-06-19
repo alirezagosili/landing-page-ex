@@ -62,3 +62,48 @@ p.lg {
 p.sm {
     font-size: 16px;
 }
+/* button style */
+
+.btn {
+    border: 2px solid var(--firefly);
+    height: 52px;
+    padding: 0 28px;
+    background-color: var(--white);
+    color: var(--firefly);
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.3s ease-out;
+}
+.btn.sm {
+    height: 48px;
+}
+.btn.lg {
+    height: 48px;
+    border-color: var(--black);
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn.primary {
+    color: var(--white);
+    font-weight: 500;
+}
+.btn.bg-blue {
+    background-color: var(--dodger-blue);
+}
+.btn.bg-green {
+    background-color: var(--yellow-green);
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px var(--black);
+}
+.shadow-btn {
+    height: 68px;
+    padding: 0 27px;
+    box-shadow: 5px 5px 0px 0px var(--black);
+    color: var(--clay);
+    background-color: transparent;
+}
+.shadow-btn.primary {
+    color: var(--white);
+}
