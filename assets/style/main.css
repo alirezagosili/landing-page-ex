@@ -7,6 +7,9 @@
     width: 100%;
     margin: 0 auto;
 }
+.text-center {
+    text-align: center;
+}
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -26,6 +29,8 @@
     --pink-line: #ee27ff;
     --red-line: #ff4e65;
     --orange-line: #ff9b00;
+    --blue-bell: #94bac3;
+    --rust: #98584e;
     /* Fonts */
     --red-hat-text: "Red Hat Text", sans-serif;
 }
@@ -65,12 +70,16 @@ p {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
+    color: var(--oxford-blue);
 }
 p.lg {
     font-size: 24px;
 }
 p.sm {
     font-size: 16px;
+}
+.fire-fly {
+    color: var(--firefly);
 }
 /* button style */
 
@@ -198,7 +207,7 @@ p.sm {
 .hero-left h1 {
     padding-right: 243px;
 }
-.hero-left p{
+.hero-left p {
     margin-top: 16px;
     padding-right: 290px;
 }
@@ -251,18 +260,18 @@ p.sm {
 .services h2 + p {
     margin-top: 16px;
 }
-.services-categories{
+.services-categories {
     display: flex;
     gap: 100px;
     margin-top: 67px;
 }
-.services-category{
+.services-category {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 26px;
 }
-.services-img-box{
+.services-img-box {
     width: 160px;
     height: 160px;
     border-radius: 32px;
@@ -273,7 +282,7 @@ p.sm {
     align-items: center;
 }
 /* info section */
-.info{
+.info {
     padding-top: 68px;
     padding-bottom: 141px;
     padding-left: 260px;
@@ -285,14 +294,13 @@ p.sm {
 .info img {
     display: block;
     width: 40%;
-
 }
-.info-box{
+.info-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.info-text-box{
+.info-text-box {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -303,7 +311,7 @@ p.sm {
     line-height: 70px;
 }
 /* team  section */
-.team{
+.team {
     color: var(--white);
     background-color: var(--firefly);
     padding-top: 125px;
@@ -317,38 +325,108 @@ p.sm {
 .team img {
     width: 40%;
 }
-.team-text{
+.team-text {
     width: 40%;
 }
 .team-text > p {
     margin-top: 8px;
+    color: var(--white);
 }
-.team-members{
+.team-members {
     margin-top: 57px;
     display: flex;
     flex-wrap: wrap;
-    
 }
-.team-member{
+.team-member {
+    color: var(--white);
     width: 50%;
 }
-.team-member:nth-of-type(1){
+.team-member p {
+    color: var(--white);
+}
+.team-member:nth-of-type(1) {
     padding-right: 24px;
     padding-bottom: 36px;
     border-right: 2px solid var(--red-line);
     border-bottom: 2px solid var(--pink-line);
 }
-.team-member:nth-of-type(2){
+.team-member:nth-of-type(2) {
     padding-left: 24px;
     padding-bottom: 36px;
     border-bottom: 2px solid var(--blue-line);
 }
-.team-member:nth-of-type(3){
+.team-member:nth-of-type(3) {
     padding-right: 24px;
     padding-top: 36px;
     border-right: 2px solid var(--orange-line);
 }
-.team-member:nth-of-type(4){
+.team-member:nth-of-type(4) {
     padding-left: 24px;
     padding-top: 36px;
+}
+/* pricing section */
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 81px;
+    padding-bottom: 94px;
+    padding-left: 260px;
+    padding-right: 140px;
+}
+.pricing > p {
+    max-width: 750px;
+}
+.pricing-plans {
+    display: flex;
+    gap: 40px;
+}
+.pricing-plan {
+    margin-top: 68px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 620px;
+}
+.pricing-plan > button {
+    margin: 42px 54px 60px;
+}
+.pricing-plan.basic{
+    background-color: var(--perfume);
+    border: 2px solid var(--firefly);
+}
+.pricing-plan.pro {
+    background-color: var(--geraldine);
+    box-shadow: 8px 8px 0 0 var(--clay);
+}
+.pricing-plan.pro .pricing-plan-feature {
+    border-bottom-color: var(--rust);
+}
+.pricing-plan.basic .pricing-plan-feature {
+    border-bottom-color: var(--blue-bell);
+}
+.pricing-plan-header {
+    padding: 34px 54px 19px;
+    border-bottom: 2px solid var(--firefly);
+}
+.pricing-plan-features {
+    margin-top: 4px;
+    padding: 0 54px;
+}
+.pricing-plan-feature {
+    padding: 24px 0;
+    border-bottom: 1px solid;
+}
+.pricing-plan-feature:last-child {
+    border-bottom: none;
+}
+.pricing-plan-feature-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.pricing-plan-feature-header + p {
+    padding-left: 46px;
+    margin-top: 12px;
 }
