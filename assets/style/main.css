@@ -65,6 +65,7 @@ h5 {
 h6 {
     font-size: 20px;
     font-weight: 700;
+    line-height: 32px;
 }
 p {
     font-size: 20px;
@@ -514,4 +515,31 @@ p.sm {
     top: 18px;
     bottom: 18px;
 }
+/* footer  section */
+.footer{
+    background-color: var(--green);
+    padding: 54px 140px;
+    display: flex;
+    justify-content: space-between;
 
+}
+.footer * {
+    font-family: var(--red-hat-text);
+}
+.footer-location{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 260px;
+}
+.footer-links > h6 {
+    margin-bottom: 6px;
+}
+.footer-links a{
+    line-height: 32px;
+}
