@@ -876,7 +876,6 @@ p.sm {
         padding: 0;
         column-gap: 100px;
         row-gap: 24px;
-        justify-content: unset;
     }
     .hero {
         flex-direction: column;
